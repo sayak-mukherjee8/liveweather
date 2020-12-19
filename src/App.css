@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  color: beige;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+}
+.app__card {
+  padding: 45px;
+  background-color: skyblue;
+  margin: 150px;
+  border-radius: 15px;
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.app__card input {
+  padding: 10px;
+  border-radius: 991px;
+  border: none;
+  outline-width: 0;
+  color: black;
+}
